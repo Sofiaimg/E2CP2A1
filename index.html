@@ -2,182 +2,167 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Landing page</title>
+	<title></title>
 	<style type="text/css">
-
-
-	.navbar li{
-		list-style-type: none;
-		float: right;
-		margin-left: 10px;
-		margin-top: 10px
-	}	 
-	.b01{ position: relative;
-		background-image: url("images/bg.jpeg");
-		color: white;
-		text-align: center;
-		height: 500px ;
-	}
-
-	.clearfix{clear: both}
-
-	h1 p h2{text-align: center;
-			width: 50%;}
-
-
-	.logo{width: 300px;
-		margin-left: 0px;}
-
-
-
-	.bluebutton{ background-color: #4C5DFF;
-				position: absolute;
-				height: 70px;
-				width: 250px;
-				margin-top: 370px;
-				margin-left: 670px;
-				border-radius: 10px;
-								 }
-
-	.greenbutton{ background-color: green;
-			position: absolute;
-				height: 70px;
-				width: 250px;
-				margin-top: 370px;
-				margin-left: 970px;
-				border-radius: 10px;}
-
-
-	.b02{position: relative;
-		background-color: white; 
-					height:	650px;
-					width: 100%;
-					bottom: 0px;
-					text-align: center;
-				}
-
-	.b03{background-color: lightgray;
+		body{width: 1600px;
+			font-family: "freesans";
+			font-size: 16px;
+			text-align: center;
+		}
+		.opening{
+			position: relative;
+			background-image: url("images/bg.jpeg");
 			height: 500px;
-			border: solid 1px black;
-			text-align: center;	}
-
-	.bluebutton2{ background-color: #4C5DFF;
-				height: 70px;
-				width: 250px;
-				margin-top: 200px;
-				margin: auto;
-				border-radius: 10px;
-				text-align: center;
-				color: white;
-				font-size: 40px;
-	 }
-
-
-	
-	.b04{background-color: white;
-		height: 500px;
-		width:	100%;
+			color: white;
+			padding-top: 50px;
 		
-}
+		}
 
+			.logoblanco{
+			position: absolute;
+			height:50px;
+			left: 100px;
+		}
 
-	.Contacto{
-	width: 50% ;
-	float: left; 
-	right: 0px;}
-	
-	.Suscríbete{ 
-		width: 50%;
-		float: left; 
-		margin: 0px}
-
-
-
-
-
-
-
-
-		footer {
-		background-color: black;
-		color: white;
-		padding: 5px;
-		text-align: center;
-	}
-
-
+		.clearfix{
+			clear: both}
+		
+		.navbar{
+			position: absolute;
+			right: 100px;
+		}
+		.navbar li{
+			color: gray;
+			padding-left: 10px;
+			display: inline-block;
+		}
+		.btnComienza{
+			background-color: #2B77CF; 
+			height: 50px;
+			width: 150px;
+			color: white;
+			font-size: 19px;
+			border-radius: 10px;
+		}
+		.btnInfo{
+			background-color: #6FE57A;
+			height: 50px;
+			width: 100px;
+			color: white;
+			font-size: 19px;
+			border-radius: 10px;
+		}
+		.happy-people{
+			height: 640px;
+			padding-top: 80px;
+			bottom: 0px
+		}
+		.imghappypeople{
+			height: 511px;
+			padding-bottom: 0px
+		}
+		.Inscribete{
+			height: 310px;
+			padding-top: 50px;
+			border: solid 1px lightgray;
+		}
+		.btnInscribete{
+			background-color: #2B77CF;
+			color: white;
+			height: 50px;
+			width: 150px;
+			border-radius: 10px;
+			font-size:19px;
+		}
+		.b04{height: 300px;
+			width: 100%;
+			position: relative;
+			text-align: left
+		}
+		.Contacto{
+			position: absolute;
+			left: 30%
+		}
+		.Suscribete{
+			position: absolute;
+			right: 30%;
+		}
+		footer{
+			width: 100%;
+			height: 100px;
+			background-color: black;
+			color: white;
+			padding-top: 30px;
+		}
 
 	</style>
-
 </head>
 <body>
+	<div class="opening">
+		<img src="images/latam_logo.png" alt="logo2" class="logoblanco">
+		<nav class="navbar">
+			<ul>
+				<li>Equipo</li>
+				<li>Blog</li>
+				<li>Contacto</li>
+			</ul>
+		</nav>
 
-	<div class="b01">
 
-		<ul class="navbar">
-		<li style="float: left;"><img class="logo" src="images/latam_logo.png"></li>
-		<li style="float: right">Equipo</li>
-		<li style="float: right;">Blog</li>
-		<li style="float: right;">Contacto</li>
-		</ul>
 
-		<h1 class="clearfix">COMIENZA UNA NUEVA VIDA Y </h1>
-		<h1>ÚNETE AL MUNDO</h1>
+
+		<div class="clearfix">
+
+		<h1>COMIENZA UNA NUEVA VIDA Y</h1>
+		<h1>ÚNETE AL MUNDO</h1>	
 		<h1>TECNOLÓGICO</h1>
-		<p> Hay una escasez gigante de programadores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno!</p>
 
-		<div class="bluebutton"> Comienza acá!</div>
-		<div class="greenbutton"> Más Info </div>
-
-	</div>
-
-	<div class="b02">
-		<h2>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</h2>
-		<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-
-		<img src="images/viewing-gallery-for-happy-people.png" height="500px" ">
-	</div>
-
-	<div class="b03">
-		<h2>SOLICITA INFORMACION E INSCRÍBETE</h2>
-		<p class="clearfix">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. </P>
-		<p>Vive la experiencia Desafío Latam!</p>	
-
-	<div class="bluebutton2"> Inscríbete </div>
-
+		<button type="button" class="btnComienza">Comienza acá!</button>
+		<button type="button" class="btnInfo">Más Info</button>
+		<p>Hay una escasez gigante de desarrolladores en el mundo y másaún en Latinoamérica, se necesitan más </p> 
+		<p>desarrolladores y Tú puedes ser uno!</p>
+		</div>
 
 	</div>
 
-		<div class="b04">
-
-		<div class="Contacto"> 
-		<h4>Contacto</h4>
-		<p>Desafío Latam</p>
-		<p>Ezequías Alliende 2361</p>
-		<p>p.+56 9 51177975</p>
-		<p><a href="inscripciones@desafiolatam.com">inscripciones@desafiolatam.com </a>
-
+	<div class="happy-people">
+		<h3>EL BOOTCAMP DE PROGRAMACION MAS GRANDE DE LATINOAMÉRICA</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		</p>
+		<img src="images/viewing-gallery-for-happy-people.png" alt="logo" class="imghappypeople">
 	</div>
-		<div class="Suscríbete">
+
+	<div class="Inscribete">
+		<h3>SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+		<p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+		<button type="button" class="btnInscribete"> Inscríbete! </button>
+		<p>Vive la experiencia Desafío Latam!</p>
+	</div>
+	
+	<div class="b04">	
+		<div class="Contacto">
+			<h4>Contacto</h4>
+			<h4>Desafío Latam</h4>
+			<p>Ezaquías Alliende 2361</p>
+			<p>P: +56 9 5117 7975</p>
+			<p><a href="inscripciones@desafiolatam.com">inscripciones@desafiolatam.com</a></p>
+		</div>
+	
+		<div class="Suscribete">
+			<h4>Suscríbete</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			<input type="email" name="Email">
+			<input type="submit" name="Enviar">
+		</div>
 		
 	</div>
-		<h4>Suscríbete </h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
-
-		<div class="Ingresar"></div>
-		<div class="Enviar"></div>
-
-	</div>
 </body>
-
 <footer>
-	<p> DESAFIOLATAM 2016 - CURSO FULLSTACK G9</p>
+<p>DESAFIO LATAM 2017 - CURSO FULLSTACK G9 </p>
+	
 </footer>
-
 
 </html>
